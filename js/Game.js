@@ -259,7 +259,7 @@ class Game {
 
   handlePlayerControls() {
     if (keyIsDown(UP_ARROW)) {
-      player.positionY += 10;
+      player.positionY += 5;
       player.update();
       this.playerMoving = true;
     }
