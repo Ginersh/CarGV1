@@ -285,7 +285,7 @@ class Game {
     });
   
     if (player.fuel>0 && this.playerMoving === true) {
-      player.fuel -= 0.3;
+      player.fuel -= 0.5;
     }
 
     if(player.fuel<=0) {
